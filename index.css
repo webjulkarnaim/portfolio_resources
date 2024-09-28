@@ -151,23 +151,19 @@ text-align: center;
 
 .skills-description{
     color: #757575;
-
-
 }
-
-span{
-    display: block;
-}
-
-.resume-column{
+.resume-column-title{
     color: #474747;
-font-size: 30px;
-font-weight: 700px;
+    font-size: 30px;
+    font-weight: 700px;
 }
+
 
 .resume-container{
     display: flex;
+    gap: 70px;
 }
+
 
 
 .download-Cv{
@@ -200,4 +196,15 @@ padding: 0;
 
 .social-links a{
     margin-right: 25px;
+}
+
+.resume-item{
+    display: flex;
+}
+.column{
+    float;
+    
+    
+    height: auto;
+    
 }
