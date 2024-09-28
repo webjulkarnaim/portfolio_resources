@@ -155,7 +155,11 @@ text-align: center;
 
 }
 
-.resume-colum{
+span{
+    display: block;
+}
+
+.resume-column{
     color: #474747;
 font-size: 30px;
 font-weight: 700px;
@@ -171,9 +175,29 @@ font-weight: 700px;
     margin-top: 50px;
 }
 
-.footer{
+.footer-column{
+    width: 50%;
+}
+
+footer{
     display: flex;
     background-color: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
+    gap: 100px;
+}
+
+
+.contact input, textarea{
+display: block;
+margin-bottom:25px;
+padding: 18px 35px;
+color: #757575;
+border-radius: 5px;
+background:#FFF;
+padding: 0;
+}
+
+.social-links a{
+    margin-right: 25px;
 }
