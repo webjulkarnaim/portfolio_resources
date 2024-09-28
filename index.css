@@ -112,7 +112,9 @@ main{
 }
 
 
-
+main section{
+    margin-top: 130px;
+}
 
 
 .about{
@@ -134,3 +136,28 @@ text-align: center;
 #what-i-do-description{
     padding: 30px 150px;
 }
+
+.skills-containar{
+    display: flex;
+    gap: 24px;
+}
+
+.skills{
+    padding: 30px;
+    border: 30px;
+    background-color: #FFF;
+    box-shadow: 0PX 6PX 50PX rgba(0, 0, 0, 0.06);
+}
+
+.skills-description{
+    color: #757575;
+
+
+}
+
+.resume-colum{
+    color: #474747;
+font-size: 30px;
+font-weight: 700px;
+}
+
